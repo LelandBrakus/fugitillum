@@ -1,0 +1,20 @@
+{
+  "out": "./docs/",
+  "readme": "./README.md",
+  "name": "Favware Node Packages",
+  "exclude": [
+    "**/node_modules/**",
+    "**/*.test.ts",
+    "**/*.js",
+    "**/rollup.config.ts",
+    "packages/converter/src/index.ts",
+    "packages/crypto/src/index.ts",
+    "packages/zalgo/src/index.ts",
+    "**/jest.config.ts"
+  ],
+  "mode": "modules",
+  "excludeExternals": true,
+  "excludeNotExported": true,
+  "stripInternal": true,
+  "tsconfig": "./tsconfig.base.json"
+}

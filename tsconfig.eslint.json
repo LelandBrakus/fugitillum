@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "module": "commonjs",
+    "moduleResolution": "node"
+  },
+  "include": ["packages/**/*.mjs", "packages/**/*.ts", "scripts", "packages/**/__tests__/*.js", "packages/**/__fixtures__/*.js", "./jest.config.ts"]
+}
